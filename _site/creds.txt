@@ -1,0 +1,11 @@
+
+
+GitHub
+user: jhillaustin
+password: SavedbyJava19
+
+User to identify commits: james
+
+Video on setting up in GitHub:
+https://www.youtube.com/watch?v=iyFjdmzcpws
+

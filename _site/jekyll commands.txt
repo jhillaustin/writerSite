@@ -1,0 +1,45 @@
+
+how to get files to GitHub?
+create repos in browser - no read me
+Click Desktop
+
+
+
+new site
+jekyll new james
+
+Run jekyll = go to site
+cd C:\Users\jahill\Desktop\writersite
+cd C:\Users\jahill\Desktop\james
+cd C:\Users\jahill\Desktop\writesite
+
+first time run use full command
+bundle exec jekyll serve
+
+after the first, can run and see page updates using:
+jekyll serve
+
+page served in browser:
+localhost:4000
+
+
+THEMES
+Search for "jekyll theme":https://rubygems.org
+Add the theme name in Gemfile > gem "theme name"
+In cmd, stop server, type: bundle install
+Then, in config.yml, set theme: theme-name
+Restart server in cmd
+Your layout metadata must match those of the new theme, you'll need to change in all your files
+
+Includes
+Add the site title: <h1>{{ site.title }}</h1>
+Create the file and its content
+Add it to any file: {% include filename.html %}
+
+
+GIT
+After you modify site:
+In cmd: git init > git checkout -b gh-pages 
+
+git status > git add .
+
