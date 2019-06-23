@@ -573,7 +573,6 @@ a:active {
   -moz-transform: rotate(1.5deg); /* FF3.5 */
   -o-transform: rotate(1.5deg); /* Opera 10.5 */
   -webkit-transform: rotate(-10deg); /* Saf3.1 , Chrome */
-  background: ;
   border-radius:5px;
 
   }
